@@ -26,7 +26,7 @@ Aquest projecte és una aplicació web desenvolupada amb Laravel que importa tut
    git clone https://github.com/elTeuUsuari/ifixit-tutorials.git
    cd ifixit-tutorials
    
-2️⃣ Instal·la les dependències del projecte
+2️⃣ Instal·la les dependències del projecte:
 composer install
 
 3️⃣ Configura l'entorn i la base de dades SQLite
@@ -37,7 +37,7 @@ env
 DB_CONNECTION=sqlite
 DB_DATABASE=./database/database.sqlite
 
-4️⃣ Genera la clau de l’aplicació i executa les migracions
+4️⃣ Genera la clau de l’aplicació i executa les migracions:
 php artisan key:generate
 php artisan migrate
 
